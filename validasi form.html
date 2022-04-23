@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pajar Muharam</title>
+    <style type="text/css">
+        h1 {
+            color: red;
+        }
+
+        body {
+         background-color: brown;
+        }
+
+        .cari {
+           width: 50%;
+           border-color: blue;
+           
+        }
+
+      
+
+
+    </style>
+    <!-- 
+        tyoe text untuk input huruf
+        type number untuk input angka
+        type color untuk input kode warna
+        type date untuk input berupa tanggal
+        type datetime-local untuk input berupa tanggal dan waktu
+        type email untuk input berupa alamat email
+        type file untuk input berupa file
+        type hidden untuk inputan yang tersembunyi
+        type image untuk inputan berupa gambar
+        type month untuk menginputkan bulan
+        type password untuk menginput password
+        type range untuk inputan rentan angka
+        type search input teks untuk mengisi kata kunci pencarian
+        type tel untuk menginputkan nomer telpon
+        tyoe time untuk menginputkan waktu atau jam
+        type url untuk input alamat url
+        type week untuk input tanggal dalam seminggu
+        type checkbox untuk check box
+        type textarea
+        type radio
+     -->
+</head>
+<body>
+    <h1>cara cara cara</h1>
+    <form action="">
+       <label>nama : </label>
+       <input type="text" name="name" placeholder="masukan nama" required />
+       <br>
+       <br>
+       <label>email : </label>
+       <input type="email" name="email" placeholder="masukan email" required />
+       <br>
+       <br>
+       <label>password : </label>
+       <input type="password" placeholder="masukan password" required />
+       <br>
+       <br>
+       <label>Nomer hp : </label>
+       <input type="tel" name="tel" placeholder="Masukan nomer" required />
+       <br>
+       <br>
+       <label>Umur : </label>
+       <input type="number" name="number" min="12" max="20" required />
+       <br>
+       <br>
+       <label>warna : </label>
+       <input type="color" required />
+       <br>
+       <br>
+       <label>cari : </label>
+       <input type="search" class="cari" placeholder="cari disini" required />
+       <input type="submit" value="search" />
+       <br>
+       <br>
+       <label>Tanggal lahir : </label>
+       <input type="date" placeholder="Masukan tanggal" required />
+       <br>
+       <br>
+       <label>bulan : </label>
+       <input type="month" required />
+       <br>
+       <br>
+       <label>Minggu : </label>
+       <input type="week" required />
+       <br>
+       <br>
+       <label>Jam : </label>
+       <input type="time" required />
+       <br>
+       <br>
+       <label>tanggal dan waktu : </label>
+       <input type="datetime-local" />
+       <label>Jenis kelamin : </label>
+       <input type="radio" name="gender">laki laki
+       <input type="radio" name="gender">perempuan
+       <br>
+       <br>
+       <label>kota asal</label>
+       <select>
+           <option>bandung</option>
+           <option>jakarta</option>
+           <option>sulawesi</option>
+           <option>surabaya</option>
+       </select>
+       <br>
+       <br>
+       <label><input type="checkbox">saya setuju</label>
+       <label><input type="checkbox">tidak setuju</label>
+       <br>
+       <br>
+      <input type="submit" value="kirim">
+       
+       
+    </form>
+</body>
+</html>
